@@ -41,12 +41,13 @@ my-app/
 - Events	Handling user interactions (onClick, onChange)
 ```
 ### ⚡ Why Vite?
-✅ Fast Development – Instant hot module replacement (HMR)
-✅ Optimized Build – Smaller and faster production bundling
-✅ Simple Configuration – Less complexity than Webpack
+
+✅ Fast Development – Instant hot module replacement (HMR) <br>
+✅ Optimized Build – Smaller and faster production bundling <br>>
+✅ Simple Configuration – Less complexity than Webpack <br>
 
 ### 📖 Learn More
-React Official Docs
-Vite Documentation
-React Hooks
-Happy coding! 🎉🚀
+React Official Docs <br>
+Vite Documentation <br>
+React Hooks <br>
+Happy coding! 🎉🚀<br>
