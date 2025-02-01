@@ -1,39 +1,36 @@
 Learning React with Vite 🚀
-Welcome to Learning React with Vite! Vite is a fast and lightweight build tool that improves the React development experience with instant hot reloading and optimized performance.
+Welcome to Learning React with Vite! Vite is a fast and lightweight build tool that improves the React development experience with instant hot reloading and optimized performance.</br>
 
-📌 Prerequisites
-Before getting started, make sure you have:
+📌 Prerequisites </br>
+Before getting started, make sure you have:</br>
 
-Basic knowledge of HTML, CSS, and JavaScript
-Node.js and npm installed on your system
-🚀 Getting Started with Vite
-Install Node.js (if not installed) – Download it from nodejs.org
-Create a React App using Vite:
-sh
-Copy
-Edit
-npm create vite@latest my-app --template react
-cd my-app
-npm install
-npm run dev
-Open http://localhost:5173/ in your browser to see the app running!
-📂 Project Structure
-src/ – Contains components, styles, and logic
-public/ – Static assets like images and index.html
-vite.config.js – Configuration for Vite
-package.json – Manages dependencies and scripts
-🛠 Core Concepts
-Components – Reusable UI blocks (function MyComponent() { return <h1>Hello</h1>; })
-Props – Passing data between components (<Button color="blue" />)
-State – Managing dynamic data (useState hook)
-Hooks – Built-in React functions like useEffect, useContext
-Events – Handling user interactions (onClick, onChange)
-⚡ Why Vite?
-Faster builds with instant hot module replacement (HMR)
-Optimized production bundling
-Simplified configuration compared to Webpack
-📖 Learn More
-Official React Docs
-Vite Documentation
-React Hooks
-Happy coding with Vite! 🚀🎉
+Basic knowledge of HTML, CSS, and JavaScript</br>
+Node.js and npm installed on your system</br>
+🚀 Getting Started with Vite</br>
+Install Node.js (if not installed) – Download it from nodejs.org</br>
+npm create vite@latest my-app --template react </br>
+cd my-app </br>
+npm install </br>
+npm run dev </br>
+
+Open http://localhost:5173/ in your browser to see the app running! </br>
+📂 Project Structure </br>
+src/ – Contains components, styles, and logic </br>
+public/ – Static assets like images and index.html </br>
+vite.config.js – Configuration for Vite </br>
+package.json – Manages dependencies and scripts </br>
+🛠 Core Concepts </br>
+Components – Reusable UI blocks (function MyComponent() { return <h1>Hello</h1>; }) </br>
+Props – Passing data between components (<Button color="blue" />) </br>
+State – Managing dynamic data (useState hook) </br>
+Hooks – Built-in React functions like useEffect, useContext </br>
+Events – Handling user interactions (onClick, onChange) </br>
+⚡ Why Vite? </br>
+Faster builds with instant hot module replacement (HMR) </br>
+Optimized production bundling </br>
+Simplified configuration compared to Webpack </br>
+📖 Learn More </br>
+Official React Docs </br>
+Vite Documentation </br>
+React Hooks </br>
+Happy coding with Vite! 🚀🎉 </br>
