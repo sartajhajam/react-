@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState , useEffect } from 'react';
 function App() {
   return<div>
     <b>
@@ -8,26 +8,33 @@ function App() {
   </div>
 
 }
-
+// useEffect is a react hook that allows us to run a function after the component has been rendered
+// set Interval sets the interval for the function 
+// mounting , re-rendering , unmounting
 function Counter() {
   const [count, setCount] = useState(0);
 
-  function increaseCount() {
-    setCount(count + 1);
-  } 
-  function decreaseCount() {
-    setCount(count - 1);
-  }
-  function resetCount() {
-    setCount(0);
-  }
+  // hooking into the lifecycle events of react
+  console.log('counter');
+  useEffect(function (){
+    setInterval(function(){
+      setCount(function(count){
+        return count + 1; 
+      })
+      
+    }, 1000);
+    console.log("mounting")
+  },[]);
 
+
+
+ 
+  
 
   return <div>
     <h1 id="text">{count}</h1>
-    <button onClick={increaseCount}>Increase count</button>
-    <button onClick={decreaseCount}>Decrease count</button>
-    <button onClick={resetCount}>Reset count</button>
+   
+    
   </div>
 
 // the thing to learn is that we have not done any DOM manipulation here
