@@ -32,12 +32,14 @@ my-app/
 │── README.md         # Project documentation
 ```
 ### 🛠 Core Concepts
-Concept	Description
-Components	Reusable UI blocks (function MyComponent() { return <h1>Hello</h1>; })
-Props	Passing data between components (<Button color="blue" />)
-State	Managing dynamic data (useState hook)
-Hooks	Built-in React functions like useEffect, useContext
-Events	Handling user interactions (onClick, onChange)
+```sh
+- Concept	    Description
+- Components	Reusable UI blocks (function MyComponent() { return <h1>Hello</h1>; })
+- Props	Passing data between components (<Button color="blue" />)
+- State	Managing dynamic data (useState hook)
+- Hooks	Built-in React functions like useEffect, useContext
+- Events	Handling user interactions (onClick, onChange)
+```
 ### ⚡ Why Vite?
 ✅ Fast Development – Instant hot module replacement (HMR)
 ✅ Optimized Build – Smaller and faster production bundling
