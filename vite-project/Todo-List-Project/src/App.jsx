@@ -1,14 +1,15 @@
-import Headname from "./components/headname";
+
 import Input from "./components/input";
 import Task1 from "./components/Task1";
 
 import "./App.css"
+import Headname from "./components/H";
 
 
 function App() {
   return (
     <center>
-      <Headname />
+     <Headname />
       <Input />
       <Task1 />
 
