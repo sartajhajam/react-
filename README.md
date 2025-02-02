@@ -43,7 +43,7 @@ my-app/
 ### ⚡ Why Vite?
 
 ✅ Fast Development – Instant hot module replacement (HMR) <br>
-✅ Optimized Build – Smaller and faster production bundling <br>>
+✅ Optimized Build – Smaller and faster production bundling <br>
 ✅ Simple Configuration – Less complexity than Webpack <br>
 
 ### 📖 Learn More
